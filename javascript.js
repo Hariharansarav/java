@@ -57,3 +57,10 @@ for (let i = 1; i <= 100; i++) {
   else if (i % 5 === 0) console.log("Buzz");
   else console.log(i);
 }
+
+//6 Largest Number in Array
+function largest(arr) {
+  return Math.max(...arr);
+}
+
+console.log(largest([10,5,20,8]));
