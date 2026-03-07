@@ -32,3 +32,20 @@ function findduplicate(arr){
 }
 
 console.log(findduplicate([1,2,3,4,1,6,7,4,8,]));
+
+//4 Two Sum
+function twoSum(nums, target) {
+  const map = {};
+
+  for (let i = 0; i < nums.length; i++) {
+    const diff = target - nums[i];
+
+    if (map[diff] !== undefined) {
+      return [diff, nums[i]];
+    }
+
+    map[nums[i]] = i;
+  }
+}
+
+console.log(twoSum([2,7,11,15], 9));
