@@ -5,7 +5,7 @@ function reverseString(str) {
 
 console.log(reverseString("hello")); // olleh
 
-//2 Check Palindrome
+//2 Check Palindrome//
 
 function isPalindrome(str) {
   const reversed = str.split("").reverse().join("");
