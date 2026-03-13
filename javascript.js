@@ -33,7 +33,7 @@ function findduplicate(arr){
 
 console.log(findduplicate([1,2,3,4,1,6,7,4,8,]));
 
-//4 Two Sum
+//4 Two Sum #//
 function twoSum(nums, target) {
   const map = {};
 
