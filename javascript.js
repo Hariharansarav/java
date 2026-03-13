@@ -58,7 +58,7 @@ for (let i = 1; i <= 100; i++) {
   else console.log(i);
 }
 
-//6 Largest Number in Array
+//6 Largest Number in Array//
 function largest(arr) {
   return Math.max(...arr);
 }
