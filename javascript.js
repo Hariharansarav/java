@@ -14,7 +14,7 @@ function isPalindrome(str) {
 
 console.log(isPalindrome("madam")); // true
 
-//3 Find Duplicate Numbers in Array
+//3 Find Duplicate Numbers in Array//
 
 function findduplicate(arr){
     const seen = new set();
