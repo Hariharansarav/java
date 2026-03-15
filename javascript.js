@@ -12,7 +12,7 @@ function isPalindrome(str) {
   return str === reversed;
 }
 
-console.log(isPalindrome("madam")); // true
+console.log(isPalindrome("madam")); // true////////
 
 //3 Find Duplicate Numbers in Array//
 
